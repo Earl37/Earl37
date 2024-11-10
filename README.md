@@ -5,7 +5,7 @@ num_workers = 400
 
 # Create a list of workers with random salaries and gender
 workers = [
-    {"id": i, "name": f"Worker {i}", "salary": random.randint(5000, 25000), "gender": random.choice(["male", "female"])}
+    {"id": i, "name": f"Worker {i}", "salary": random.randint(5000, 35000), "gender": random.choice(["male", "female"])}
     for i in range(1, num_workers + 1)
 ]
 
